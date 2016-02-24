@@ -1,0 +1,8 @@
+vault-unseal:
+  build: .
+  environment:
+    MANDRILL_APIKEY:
+    KEYBASE_USERNAME:
+
+  labels:
+    - io.rancher.container.start_once=true
