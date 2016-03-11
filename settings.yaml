@@ -4,17 +4,9 @@ keybase:
     - name: sundeer
       email: rick11@rhsjmm.com
       root_token: true
-      key_shares: 4
-    - name: sundeer
-      email: rick11@rhsjmm.com
-      root_token: false
-      key_shares: 3
-    - name: sundeer
-      email: rick11@rhsjmm.com
-      root_token: false
       key_shares: 1
 
 vault:
-  url: http://192.168.99.101:8700
+  url: http://server-1.rancher-vault.default.corngoodness.com:8700
   domain: toomanytubes.com
-  threshold: 3
+  threshold: 1
